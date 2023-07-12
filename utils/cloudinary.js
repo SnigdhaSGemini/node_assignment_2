@@ -1,3 +1,4 @@
+// To upload images on cloud using cloudinary
 const cloudinary = require("cloudinary")
 cloudinary.config({
     cloud_name:process.env.CLOUD_NAME,

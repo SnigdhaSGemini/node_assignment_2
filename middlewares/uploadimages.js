@@ -3,6 +3,7 @@ const sharp = require('sharp')
 const path = require('path')
 const fs = require("fs")
 
+// to upload images to database and fetch it into database as cloud URL
 const multerStorage = multer.diskStorage({
     destination: function(req,file,callback){
         callback(null,path.join(__dirname,'../public/uploads'))
