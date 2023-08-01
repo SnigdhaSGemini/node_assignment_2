@@ -1,0 +1,84 @@
+body{
+    background-color: whitesmoke;
+}
+.form-container{
+    width: 50vw;
+    margin: 7vw;
+    background-color: white;
+    border-radius: 1vw;
+    overflow: scroll;
+    overflow-wrap: break-word; 
+
+}
+.form-container::-webkit-scrollbar {
+    display: none;
+  }
+  .form-container {
+    -ms-overflow-style: none; 
+    scrollbar-width: none; 
+  }
+.main-container{
+   width:100%;
+   margin: 0;
+   padding:0;
+   display:flex;
+   flex-wrap:wrap;
+   justify-content: center;
+   overflow-y: hidden;
+}
+.input-field{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.field-div{
+    display:block;
+    width:80vw;
+}
+label{
+    margin:1vw;
+}
+input, select{
+    margin:1vw;
+    padding: .5vw;
+    font-weight: 350;
+    border: .5px solid wheat;
+    border-radius: 1vw;
+    width: 25vw;
+}
+.radio{
+    width: 2vw;
+}
+.submit-button{
+    border-radius: 1vw;
+    background-color: yellow;
+    border: none;
+    padding: .5vw;
+    margin-bottom: 1vw;
+ }
+
+ .submit-button:hover{
+    background-color: yellowgreen;
+ }
+.close-button{
+    border-radius: 1vw;
+    background-color: red;
+    border: none;
+    padding: .5vw;
+    margin-bottom: 1vw;
+    color: white;
+    margin:1vw;
+}
+.close-button:hover{
+    background-color: rgb(76, 9, 9);
+}
+.editable{
+
+    align-items: center;
+}
+.error{
+    color: red;
+}
+button{
+    cursor: pointer;
+}

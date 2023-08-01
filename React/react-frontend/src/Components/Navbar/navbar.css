@@ -1,0 +1,17 @@
+.navbar-div{
+    display: flex;
+    padding: 2vw;
+    margin: 0;
+    background-color: antiquewhite;
+    flex-wrap: wrap;
+    justify-content:space-around;
+
+}
+a{
+    text-decoration: none;
+    color:black;
+    font-weight: 400;
+}
+a:hover{
+    font-weight: bold;
+}

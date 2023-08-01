@@ -1,0 +1,58 @@
+body{
+    background-color: whitesmoke;
+}
+.view-div{
+    display: flex;
+    width:90vw;
+    justify-content: center;
+    margin: 4vw;
+}
+.display-data{
+    background-color: white;
+    border-radius: 1vw;
+    width:fit-content;
+}
+button{
+    cursor: pointer;
+}
+td{
+    border-top: 1px solid wheat;
+    padding: .5vw;
+
+}
+.update{
+    border-radius: 1vw;
+    background-color: yellow;
+    border: none;
+    padding: .5vw;
+    margin-bottom: 1vw;
+    margin:1vw;
+}
+.update:hover{
+    background-color: yellowgreen;
+}
+.delete{
+    border-radius: 1vw;
+    background-color: red;
+    border: none;
+    padding: .5vw;
+    margin-bottom: 1vw;
+    color: white;
+    margin:1vw;
+}
+.delete:hover{
+    background-color: brown;
+
+}
+
+
+@media (max-width:630px) {
+    .display-data{
+        width: 80vw;
+        overflow-y:scroll;
+        overflow-wrap: break-word;
+    }
+    
+  
+   
+}
